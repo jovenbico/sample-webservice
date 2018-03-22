@@ -6,10 +6,10 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.champ.sample.controller.resource.MessageResource;
 
-@RestController()
+@RestController
 public class HelloController {
 
-	@GetMapping(name = "/hello", produces = { MediaType.APPLICATION_JSON_UTF8_VALUE })
+	@GetMapping(value = "/hello", produces = { MediaType.APPLICATION_JSON_UTF8_VALUE })
 	public MessageResource say() {
 
 		MessageResource resource = new MessageResource("Hello World!");

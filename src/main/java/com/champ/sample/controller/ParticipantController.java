@@ -20,7 +20,7 @@ import com.champ.sample.model.Participant;
 import com.champ.sample.repository.ParticipantRepository;
 
 @RestController
-@RequestMapping(value = "/particpant", produces = { MediaType.APPLICATION_JSON_VALUE })
+@RequestMapping(value = "/participant", produces = { MediaType.APPLICATION_JSON_VALUE })
 public class ParticipantController {
 
 	@Autowired
